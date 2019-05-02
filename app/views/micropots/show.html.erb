@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @micropot.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @micropot.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_micropot_path(@micropot) %> |
+<%= link_to 'Back', micropots_path %>
